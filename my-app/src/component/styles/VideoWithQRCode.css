@@ -1,0 +1,19 @@
+.video-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .qr-code-overlay {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    right: 10px;  /* Adjust as needed */
+    background: rgba(255, 255, 255, 0.8); /* Optional: for better visibility */
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .qr-code-overlay img {
+    width: 100px; /* Adjust the size of the QR code */
+    height: auto;
+  }
+  
